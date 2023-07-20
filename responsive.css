@@ -3,7 +3,7 @@
         display: none;
     }
 .search-bar{
-width: 80%;
+width: 70%;
 }
 .search-bar::placeholder{
 font-size: 18px;
