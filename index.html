@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Weather App</title>
+
+  <!-- CSS Stylesheets Linked! -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <div class="search-box">
+        <input type="text" placeholder="Enter Your Location" class="search-bar" id="search-bar">
+        <button class="search-button fa-solid fa-magnifying-glass" id="search-button" style="color: #ffffff;" alt="Search"></button>
+      </div>
+    </div>
+
+    <!-- 404 Code -->
+    <div class="error-message">
+      <h1>Sorry,&nbsp; Location not found!!!</h1>
+      <img src="images/404.png" alt="404 Error">
+    </div>
+
+    <div class="main">
+      <div class="main-temp-info">
+        <img src="images/cloud.png" alt="Weather Image" class="weather-img">
+        <div class="temp">
+          <p id="main-temp">0 °C</p>
+        </div>
+        <div class="info">
+          <p id="main-info">Clouds</p>
+        </div>
+      </div>
+      <div class="vr"></div>
+      <div class="description">
+        <div class="m-temp weather-info">
+          <i class="fa-solid fa-temperature-empty info-icons" style="color: #ffffff;"><span id="min-temp" class="value">0
+              °C</span></i>
+          <hr>
+          <p class="desc">Min. Temperature</p>
+
+          <div class="x-temp weather-info">
+            <i class="fa-solid fa-temperature-full info-icons" style="color: #ffffff;"><span id="max-temp" class="value">0
+                °C</span></i>
+            <hr>
+            <p class="desc">Max. Temperature</p>
+
+            <div class="h_umidity weather-info">
+              <i class="fa-solid fa-droplet info-icons" style="color: #ffffff;"><span id="humidity" class="value">0%</span></i>
+              <hr>
+              <p class="desc">Humidity</p>
+
+            </div>
+            <div class="w_ind-speed weather-info">
+              <i class="fa-solid fa-wind info-icons" style="color: #ffffff;"> <span id="wind-speed" class="value">0Km/H</span></i>
+              <hr>
+              <p class="desc">Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- JavaScripts Linked! -->
+      <script src="https://kit.fontawesome.com/625b58c71e.js" crossorigin="anonymous"></script>
+      <script src="script.js"></script>
+</body>
+
+</html>

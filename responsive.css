@@ -1,0 +1,14 @@
+@media only screen and (max-width: 540px) {
+    .vr{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 280px){
+    .container{
+        width: 100%;
+    }
+    .search-button{
+        font-size: 35px;
+    }
+}

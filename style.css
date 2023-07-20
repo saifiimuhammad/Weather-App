@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+body {
+    background-color: #152238;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container {
+
+    width: 80%;
+    height: min-content;
+    background-color: #1c2e4a;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.search-box {
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search-bar {
+    width: 60%;
+    padding: 15px 20px;
+    font-size: 18px;
+    color: #ffffff;
+    border-radius: 8px;
+    background-color: #192841;
+    text-transform: capitalize;
+}
+
+.search-bar::placeholder {
+    color: rgb(218, 229, 238);
+}
+
+.search-button {
+    height: 40px;
+    width: 40px;
+    font-size: 40px;
+    background-color: #1c2e4a;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.main {
+    display: none;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.main-temp-info {
+    /* border: 2px solid red; */
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weather-img {
+    width: 170px;
+    margin-block-end: 10px;
+}
+
+.temp p {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.info {
+    margin-top: 10px;
+}
+
+.info p {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+.vr {
+    background-color: white;
+    width: 2px;
+    height: 400px;
+    border-radius: 15px;
+    margin-block-start: 20px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: min-content;
+    margin-right: 50px;
+}
+
+.info-icons {
+    font-size: 30px;
+}
+
+.info-icons span {
+    margin-left: 10px;
+}
+
+.weather-info {
+    text-align: left;
+    margin-top: 30px;
+}
+
+.desc {
+    font-size: 18px;
+}
+
+.description hr {
+    width: 180px;
+    background-color: antiquewhite;
+    border-radius: 12px;
+    height: 1px;
+    margin-block: 5px;
+}
+
+/* 404 Code */
+.error-message{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-block: 50px;
+}
+.error-message img{
+    margin-left: 20px;
+}
+.error-message h1{
+    margin-right: 20px;
+    color: rgb(255, 251, 247);
+}
