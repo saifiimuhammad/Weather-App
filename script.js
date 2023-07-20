@@ -42,22 +42,22 @@ wind_speed.innerHTML = `${weather_data.wind.speed}Km/H`;
 
 switch(weather_data.weather[0].main){
     case 'Haze':
-        image.src = "/images/haze.png";
+        image.src = "haze.png";
         break;
     case 'Clouds':
-        image.src = "/images/cloud.png";
+        image.src = "cloud.png";
         break;
     case 'Clear':
-        image.src = "/images/clear.png";
+        image.src = "clear.png";
         break;
     case 'Mist':
-        image.src = "/images/mist.png";
+        image.src = "mist.png";
         break;
     case 'Rain':
-        image.src = "/images/rain.png";
+        image.src = "rain.png";
         break;
     case 'Snow':
-        image.src = "/images/snow.png";
+        image.src = "snow.png";
         break;
 }
 
