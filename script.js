@@ -42,7 +42,7 @@ wind_speed.innerHTML = `${weather_data.wind.speed}Km/H`;
 
 switch(weather_data.weather[0].main){
     case 'Haze':
-        image.src = "haze.png";
+        image.src = "haze.PNG";
         break;
     case 'Clouds':
         image.src = "cloud.png";
