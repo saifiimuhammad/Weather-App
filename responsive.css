@@ -2,6 +2,9 @@
     .vr{
         display: none;
     }
+.search-bar{
+width: 80%;
+}
 .search-bar::placeholder{
 font-size: 18px;
 }
